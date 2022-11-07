@@ -1,8 +1,6 @@
-package bot.second.botSecond.sevice.implMenu;
+package bot.second.botSecond.sevice.menu;
 
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
-
-import java.util.List;
 
 public interface BotMenu {
 

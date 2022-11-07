@@ -1,4 +1,4 @@
-package bot.second.botSecond.sevice.tryContainer;
+package bot.second.botSecond.sevice;
 
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 

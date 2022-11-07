@@ -1,6 +1,6 @@
-package bot.second.botSecond.sevice.implMenu;
+package bot.second.botSecond.sevice.menu;
 
-import bot.second.botSecond.sevice.enums.Services;
+import bot.second.botSecond.sevice.enums.ServicesName;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
@@ -18,7 +18,8 @@ public class ServicesMenu implements BotMenu {
         List<KeyboardRow> keyboardRows = new ArrayList<>();
         KeyboardRow row = new KeyboardRow();
 
-        for (Services element : Services.values()){
+
+        for (ServicesName element : ServicesName.values()){
             row.add(element.getServiceName());
             keyboardRows.add(row);
             row = new KeyboardRow();

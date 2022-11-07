@@ -3,22 +3,18 @@
 <hibernate-configuration>
     <session-factory>
 
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/telegram-bot</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/telegrambot</property>
         <property name="hibernate.connection.autocommit">false</property>
         <property name="hibernate.connection.username">admin</property>
         <property name="hibernate.connection.password">admin</property>
         <property name="hibernate.hbm2ddl.auto">create-drop</property>
-
-
-
         <property name="show_sql">true</property>
 
-        <mapping class="bot.second.botSecond.Entity.Customer"/>
 
-
-
+        <mapping class="bot.second.botSecond.Entity.Client"/>
+        <mapping class="bot.second.botSecond.Entity.Master"/>
 
     </session-factory>
 </hibernate-configuration>

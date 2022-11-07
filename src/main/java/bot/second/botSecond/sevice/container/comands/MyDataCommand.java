@@ -1,6 +1,6 @@
-package bot.second.botSecond.sevice.tryContainer.comands;
+package bot.second.botSecond.sevice.container.comands;
 
-import bot.second.botSecond.sevice.tryContainer.SendBotMessageService;
+import bot.second.botSecond.sevice.SendBotMessageService;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 

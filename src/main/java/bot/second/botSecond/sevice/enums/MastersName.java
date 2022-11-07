@@ -1,13 +1,12 @@
 package bot.second.botSecond.sevice.enums;
 
-import bot.second.botSecond.Entity.Master;
-
 public enum MastersName {
-    ANNA("ANNA"),
-    VITALII("Vitalii"),
-    BORIS("Boris");
+    ANNA("Аннуш"),
+    VITALII("Віталій"),
+    BORIS("Сергій"),
+    BACK("назад до початку");
 
-    private String name;
+    private final String name;
     MastersName(String name) {
         this.name = name;
     }

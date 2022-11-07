@@ -1,7 +1,6 @@
-package bot.second.botSecond.sevice.tryContainer;
+package bot.second.botSecond.sevice;
 
 
-import bot.second.botSecond.sevice.TelegramBot;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;

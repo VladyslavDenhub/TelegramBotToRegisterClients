@@ -1,13 +1,11 @@
 package bot.second.botSecond.sevice.enums;
 
-import org.springframework.scheduling.config.FixedRateTask;
-
 public enum FirstMenu {
-    RECORD("RECORD"),
-    EDIT_RECORD("EDIT RECORD"),
-    DELETE_RECORD("DELETE RECORD");
+    APPOINTMENT("Створити запис"),
+    EDIT_APPOINTMENT("Редагувати запис"),
+    DELETE_APPOINTMENT("Видалити запис");
 
-    private String buttonName;
+    private final String buttonName;
 
     FirstMenu(String buttonName){
         this.buttonName = buttonName;
